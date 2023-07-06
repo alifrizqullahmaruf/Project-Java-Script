@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+/** Main */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.logo{
+    margin: 30px;
+}
+.num{
+    margin: 30px;
+}
+.buttons{
+    margin: 30px;
+    
+}
+.buttons button{
+    padding: 15px;
+    margin-left: 30px;
+}

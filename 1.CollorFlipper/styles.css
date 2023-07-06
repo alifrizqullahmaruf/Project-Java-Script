@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/** navbar */
+nav{
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 10px;
+}
+
+.logo h4{
+    color: blueviolet;
+    font-size: larger;
+}
+
+.pilihan ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.pilihan li{
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+Main h2{
+    color: black;
+    margin: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+Main button{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+}
+Main button:hover{
+    width: 150px;
+    height: 50px;
+    background-color: aliceblue;
+}

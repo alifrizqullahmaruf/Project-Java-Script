@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    border: 1px solid;
+    box-shadow: 2px 2px 5px black;
+}
+
+/** Title */
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.title h2{
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.underline{
+    width: 180px;
+    height: 5px;
+    background-color: aqua;
+    justify-content: center;
+}
+
+/** =====Reviews===== **/
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* image */
+
+.img-container{
+    margin-top: 30px;
+}
+.img-container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 2px solid aqua;
+    
+}
+
+/* article */
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.article h4{
+    font-size: x-large;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+#job{
+    margin-bottom: 5px;
+    color: aqua;
+}
+
+#info{
+    width: 400px;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.prev-btn{
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: x-large;
+}
+.next-btn{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+/* button */
+.random-btn{
+    border: 3px solid aqua;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.random-btn:hover{
+    border: 3px solid aqua;
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
